@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AlexaSuite" duration-ms="112858" started-at="2019-07-06T09:09:56Z" finished-at="2019-07-06T09:11:49Z">
+    <groups>
+    </groups>
+    <test name="AlexaTest" duration-ms="112858" started-at="2019-07-06T09:09:56Z" finished-at="2019-07-06T09:11:49Z">
+      <class name="com.tetrasoft.alexatest.test.GmailSending">
+        <test-method status="PASS" signature="testSetUp()[pri:0, instance:com.tetrasoft.alexatest.test.GmailSending@7cf10a6f]" name="testSetUp" is-config="true" duration-ms="8221" started-at="2019-07-06T09:09:56Z" finished-at="2019-07-06T09:10:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetUp -->
+        <test-method status="PASS" signature="navigateToGmailHomePage()[pri:1, instance:com.tetrasoft.alexatest.test.GmailSending@7cf10a6f]" name="navigateToGmailHomePage" duration-ms="38207" started-at="2019-07-06T09:10:05Z" finished-at="2019-07-06T09:10:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToGmailHomePage -->
+        <test-method status="PASS" signature="composeaMail()[pri:2, instance:com.tetrasoft.alexatest.test.GmailSending@7cf10a6f]" name="composeaMail" duration-ms="55600" started-at="2019-07-06T09:10:43Z" finished-at="2019-07-06T09:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- composeaMail -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.tetrasoft.alexatest.test.GmailSending@7cf10a6f]" name="tearDown" is-config="true" duration-ms="10804" started-at="2019-07-06T09:11:39Z" finished-at="2019-07-06T09:11:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.tetrasoft.alexatest.test.GmailSending -->
+    </test> <!-- AlexaTest -->
+  </suite> <!-- AlexaSuite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AlexaSuite]">
+  <test thread-count="5" name="AlexaTest(failed)">
+    <classes>
+      <class name="com.tetrasoft.alexatest.test.GmailSending">
+        <methods>
+          <include name="tearDown"/>
+          <include name="navigateToGmailHomePage"/>
+          <include name="testSetUp"/>
+          <include name="composeaMail"/>
+        </methods>
+      </class> <!-- com.tetrasoft.alexatest.test.GmailSending -->
+    </classes>
+  </test> <!-- AlexaTest(failed) -->
+</suite> <!-- Failed suite [AlexaSuite] -->
